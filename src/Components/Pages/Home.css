@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url('/public/images/back.avif');  
+}
+.logo-zom{
+  width: 250px;
+  position: relative;
+  left: 550px;
+  top: 50px;
+}
+#h-text{
+    margin: 90px 0px 0px 290px;
+    color: white;
+}
+#search-bar{
+    padding: 18px;
+    width: 700px;
+    border: 0px solid;
+    border-radius: 0.7rem;
+    position: relative;
+    left: 323px;
+    top: 30px;
+}
+.fa-search{
+    position: relative;
+    left: 280px;
+    top: 30px;
+}
+

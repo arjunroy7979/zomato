@@ -1,0 +1,31 @@
+#fname{
+    width: 408px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#email{
+    width: 408px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+#cre-acc{
+    width: 445px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#check{
+    margin-bottom: 25px;
+}
+#agree{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+#or{
+    margin-bottom: 25px;
+}
+#ts{
+    color: red;
+    text-decoration: none;
+}
