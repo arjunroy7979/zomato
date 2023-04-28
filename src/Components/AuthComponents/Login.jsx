@@ -2,13 +2,13 @@ import React from 'react'
 import '../AuthComponents/Login.css'
 import { Link } from 'react-router-dom'
 
-const Login = () => {
+const Login = ({toogle}) => {
     return (
         <>
             <div className="container">
                 <div id='container1'>
                     <div className='main'>
-                        <h4 id='text-1'>Login <Link to='/' class="fa fa-times" aria-hidden="true"></Link></h4>
+                        <h4 id='text-1'>Login <Link to='' onClick={toogle} class="fa fa-times" aria-hidden="true"></Link></h4>
                         <div>
                             <select id='select'>
                                 <option value="india">+91</option>

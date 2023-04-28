@@ -24,7 +24,7 @@ const Collection = () => {
 
             <div id='collection'>
                 <h1 id='col1'>Collections</h1>
-                <p className='col2'>Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends <Link to="/all-collection" id='all-cat'>All collections in Bengaluru</Link> <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+                <p className='col2'>Explore curated lists of top restaurants, cafes, pubs, and bars in Bihar & Jharkhand, based on trends <Link to="/all-collection" id='all-cat'>All collections in Bihar & Jharkhand</Link> <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
             </div>
             
             <div style={{ display: 'flex' }}>

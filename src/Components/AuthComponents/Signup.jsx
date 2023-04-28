@@ -1,13 +1,13 @@
 import React from 'react'
 import '../AuthComponents/Signup.css'
 import { Link } from 'react-router-dom'
-const Signup = () => {
+const Signup = ({toogle1}) => {
     return (
         <>
             <div className="container">
                 <div id='container1'>
                     <div className='main'>
-                        <h5 id='text-1'>Signup <Link to='/' class="fa fa-times" aria-hidden="true"></Link></h5>
+                        <h5 id='text-1'>Signup <Link to='' onClick={toogle1} class="fa fa-times" aria-hidden="true"></Link></h5>
                         <input type="text" id='fname' placeholder='Full Name' /><br />
                         <input type="text" id='email' placeholder='Email' /><br />
                         <input type="checkbox" id='check' /> <span id='agree'>I agree to Zomato's <span><Link to='/terms-of-services' id='ts'>Terms of Service</Link></span>,<span> <Link to='/privacy-policy' id='ts'>Privacy Policy</Link></span> and <span><Link to='/polices' id='ts'>Content Policies</Link></span></span><br />
